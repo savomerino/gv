@@ -1,0 +1,258 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+  height: 3.5rem;
+}
+.navbar {
+  font-size: 16;
+  font-weight: 700;
+  box-shadow: 0 .2rem .2rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  line-height: 20px;
+}
+.nav-item {
+  padding: 0.5rem;
+  padding-right: 5rem;
+  padding-left: 2rem;
+}
+.nav-link {
+  color: black!important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: white!important;
+}
+.nav-item:hover
+{
+  background-color: #76B729;
+}
+
+/*============= MOBILE =============*/
+
+
+
+/*============= MAIN =============*/
+.masthead {
+  padding-top: 8rem;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.bg-custom-principal {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 1rem;
+}
+.bg-custom-principal h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 56px;
+}
+.bg-custom-principal h3 {
+  color: black;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+/*============= MAIN MOBILE =============*/
+.masthead-mobile {
+  padding-top: 8rem;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.bg-custom-principal-mobile {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.bg-custom-principal-mobile h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+.bg-custom-principal-mobile h3 {
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+}
+/*===== ABOUTME =====*/
+
+.row h2 {
+	max-width: 650px;
+	text-align: left;
+}
+.row h2 strong {
+	color: #76B729;
+}
+.greencontainer {
+  padding-left: 6rem;
+  background-color: #76B729;
+  color: white;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.greencontainer h2 {
+  padding-top: 200px;
+  line-height: 130%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.imgcontainer {
+  background-color: #76B729;
+  padding-right: 0;
+}
+
+/*===== EJES =====*/
+.row-ejes h2 {
+	max-width: 650px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 400;
+}
+.row-ejes p {
+	text-align: center;
+}
+
+/*===== EXPERIENCIA SLIDER =====*/
+.card {
+  padding: 5rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+  border-width: 2px;
+  border-color: #76B729;
+}
+
+.card-title {
+  font-size: 60px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00dbde, #76B729, #E82D8A, #FECC00, #76B729, #673E83, #DF0929, #76B729);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+.card-link {
+  color: black!important;
+  font-size: 25px;
+}
+
+
+
+/*============= FOOTER =============*/
+footer {
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 105px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+footer p, footer a,
+.socket a {
+  color: black;
+  text-decoration: none;
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+
+  margin: flex;
+  padding: 0;
+}
+
+/*============= SOCKET =============*/
+.socket {
+  background-color: #222222;
+  border-top: .1rem solid #4981b3;
+}
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 980px (md) */
+@media screen and (max-width: 980px) {
+  .masthead {
+    min-height: 60vh;
+  }
+}
+
+
+/* Devices under 768px (md) */
+@media (max-width: 768px) {
+  .masthead {
+    min-height: 60vh;
+  }
+
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
