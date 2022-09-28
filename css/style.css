@@ -85,11 +85,12 @@ body {
 }
 /*===== ABOUTME =====*/
 
-.row h2 {
+.sobremi h2 {
 	max-width: 650px;
 	text-align: left;
+  font-size: 24px;
 }
-.row h2 strong {
+.sobremi h2 strong {
 	color: #76B729;
 }
 .greencontainer {
@@ -105,13 +106,18 @@ body {
   line-height: 130%;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .imgcontainer {
   background-color: #76B729;
   padding-right: 0;
 }
+
+/*===== ABOUTME MOBILE =====*/
+
+
+
 
 /*===== EJES =====*/
 .row-ejes h2 {
@@ -256,3 +262,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transform: translateZ(0);
   will-change: transform;
 }
+
