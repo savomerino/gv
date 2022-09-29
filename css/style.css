@@ -86,6 +86,8 @@ body {
 /*===== ABOUTME =====*/
 
 .sobremi h2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 	max-width: 650px;
 	text-align: left;
   font-size: 24px;
@@ -97,8 +99,8 @@ body {
   padding-left: 6rem;
   background-color: #76B729;
   color: white;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
 .greencontainer h2 {
@@ -114,7 +116,48 @@ body {
   padding-right: 0;
 }
 
+img.rounded-corners-desk {
+  border-radius: 0 40px 40px 0;
+}
+
 /*===== ABOUTME MOBILE =====*/
+
+.sobremi-mobile h2 {
+	max-width: 342px;
+	text-align: left;
+  font-size: 16px;
+}
+.sobremi-mobile h2 strong {
+	color: #76B729;
+}
+.greencontainer-mobile {
+  background-color: #76B729;
+  color: white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.greencontainer-mobile h2 {
+  max-width: 306px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 130%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.imgcontainer-mobile {
+  max-width: 306px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+img.rounded-corners {
+  border-radius: 0 0 2rem 2rem;
+}
 
 
 
